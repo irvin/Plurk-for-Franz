@@ -1,0 +1,23 @@
+{
+  "name": "Plurk",
+  "version": "0.0.1",
+  "description": "Plurk",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://plurk.com/",
+    "serviceName": "Plurk",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
