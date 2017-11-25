@@ -1,23 +1,16 @@
 {
+  "id": "plurk",
   "name": "Plurk",
-  "version": "0.0.1",
-  "description": "Plurk",
+  "version": "0.0.2",
+  "description": "Plurk is a free social networking service launched on 2008.",
   "main": "index.js",
-  "author": "",
+  "author": "Irvin Chen",
   "license": "MIT",
+  "repository": "https://github.com/irvin/Plurk-for-Franz",
   "config": {
     "serviceURL": "https://plurk.com/",
-    "serviceName": "Plurk",
-    "message": "",
-    "popup": [],
     "hasNotificationSound": true,
     "hasIndirectMessages": true,
-    "hasTeamID": false,
-    "customURL": false,
-    "hostedOnly": false,
-    "webviewOptions": {
-      "disablewebsecurity": ""
-    },
-    "openDevTools": false
+    "hasTeamID": false
   }
 }
